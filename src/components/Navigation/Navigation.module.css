@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+
+.link {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    color: #2a363b;
+}
+  
+.link-active {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #e84a5f;
+}
+
+@media screen and (max-width: 399px) {
+  .nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .link {
+    padding: 8px;
+  }
+
+  .link-active {
+    padding: 8px;
+  }
+}

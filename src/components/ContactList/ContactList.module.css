@@ -1,0 +1,14 @@
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+
+    /* max-width: 460px; */
+}
+
+@media screen and (min-width: 787px) {
+    .contact-list {
+        width: 460px;
+    }
+}
